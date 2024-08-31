@@ -1,0 +1,56 @@
+
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #ff6347;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  background-color: #333;
+  border: 1px solid #666;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #ff6347;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff8c6f;
+}
+
+p#binary-output {
+  margin-top: 10px;
+}
+
+p#binary-output b {
+  color: #ff6347;
+}
+
+button:active {
+  transform: scale(0.95);
+}
